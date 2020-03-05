@@ -7,3 +7,12 @@ def is_isogram(string):
       break 
     else:
          return True
+     
+        
+        def is_pangram(sentence):
+   oracion = sentence.lower()
+   abecedario = "abcdefghijklmnopqrstuvwxyz"
+   for char in abecedario:
+       if char not in oracion:
+           return False
+       return True
